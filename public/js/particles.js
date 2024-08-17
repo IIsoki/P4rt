@@ -1,12 +1,11 @@
 particlesJS("particles-js", {
   particles: {
     number: { value: 160, density: { enable: true, value_area: 800 } },
-    color: { value: "#5A5A5A" },
+    color: { value: "#800080" }, // Set the color to purple
     shape: {
-      type: "circle",
-      stroke: { width: 0, color: "#5A5A5A" },
-      polygon: { nb_sides: 5 },
-      image: { src: "img/github.svg", width: 100, height: 100 },
+      type: "polygon",  // Set the shape to polygon
+      stroke: { width: 0, color: "#800080" }, // Stroke color also purple
+      polygon: { nb_sides: 3 },  // Set the number of sides to 3 for a triangle
     },
     opacity: {
       value: 1,
@@ -21,7 +20,7 @@ particlesJS("particles-js", {
     line_linked: {
       enable: false,
       distance: 150,
-      color: "#5A5A5A",
+      color: "#800080", // Line color is also purple
       opacity: 0.4,
       width: 1,
     },
